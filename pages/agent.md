@@ -1,0 +1,5 @@
+- 多Agent优化
+	- agent 多任务速度优化：
+		- {{video https://www.bilibili.com/video/BV1vzU6BZEKi?vd_source=1e8424064855cc146aec87b7b7ee376d}}
+	- 多 agent 多工具选择优化：
+		- {{video https://www.bilibili.com/video/BV1oeCzByEGQ?spm_id_from=333.788.recommend_more_video.0&trackid=web_related_0.router-related-2206419-76tx6.1764330023747.634&vd_source=1e8424064855cc146aec87b7b7ee376d}}

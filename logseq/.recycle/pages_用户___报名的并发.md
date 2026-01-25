@@ -1,0 +1,17 @@
+## 需求：
+- ## 参考文档：
+	- **库存扣减如何避免超卖和少卖**（语雀）
+- ## 可行方案：
+	- 通过数据库原子操作进行扣减，报错直接返回提示刷新
+	  logseq.order-list-type:: number
+		- 初始化时设置剩余名额
+		  logseq.order-list-type:: number
+	- 通过redis的原子性进行扣件
+	  logseq.order-list-type:: number
+		- 但是退出等操作还需要额外写
+		  logseq.order-list-type:: number
+	- 加锁，但是库存扣减问题只需要关注最后一个名额，前面并发也无所谓
+	  logseq.order-list-type:: number
+- ## 问题：
+	- 重复报名：
+		- 数据库唯一性约束 + 查询参与log表

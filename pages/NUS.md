@@ -1,0 +1,27 @@
+- 新国立正式批都是10月1日开始
+- ISS：提前批都是4月30日开始
+	- 软工
+		- ## 申请时间
+			- 提前批
+				- 开始时间：2024 4月30日
+					- 2025年入学
+				- 截止日期：
+			- 常规批
+				- 开始时间：2024 10月1日
+				- 截止时间：2025 4月30日
+		- ## 申请流程
+			- ![image.png](../assets/image_1754207360601_0.png){:height 863, :width 1159}
+			- ![image.png](../assets/image_1754207400631_0.png) ![image.png](../assets/image_1754207441144_0.png)
+			- ![image.png](../assets/image_1754207481775_0.png) ![image.png](../assets/image_1754207515548_0.png)
+		- ## 申请材料
+			- ![image.png](../assets/image_1739176852782_0.png){:height 385, :width 718}
+				- 排名是强制要求的，md
+			- ![image.png](../assets/image_1739177022229_0.png)
+				- 好像没要求推荐信的内容？
+			- ![image.png](../assets/image_1753960185620_0.png)
+		- ## 成绩要求
+		- ## 内容安排
+		- ## 留服认证
+		- ## 潜在问题
+	- **Enterprise Business Analytics**
+	- Technology in Intelligent Systems
