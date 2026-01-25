@@ -11,7 +11,7 @@
  ;; - :now for NOW/LATER style (default)
  ;; - :todo for TODO/DOING style
  :preferred-workflow :now
- :todo/keywords #{"NOW" "LATER" "TODO" "DOING" "DONE" "WAITING" "CANCELED"}
+
  ;; Exclude directories/files.
  ;; Example usage:
  ;; :hidden ["/archived" "/test.md" "../assets/archived"]
@@ -299,7 +299,7 @@
  ;;  :charge-range    600}   ; Default value: 600
 
  ;; Favorites to list on the left sidebar
- :favorites ["总纲" "template" "每日三省" "dashboard" "randomthought" "projects"]
+ :favorites []
 
  ;; Set flashcards interval.
  ;; Expected value:
@@ -418,7 +418,4 @@
  ;;   - :triple-lowbar (default)
  ;;      ;use triple underscore `___` for slash `/` in page title
  ;;      ;use Percent-encoding for other invalid characters
- :file/name-format :triple-lowbar
- :graph/settings {:journal? false
- :builtin-pages? false}
- :journal/page-title-format "yyyy-MM-dd"}
+ :file/name-format :triple-lowbar}
