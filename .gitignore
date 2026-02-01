@@ -4,3 +4,4 @@
 .logseq/config/
 .DS_Store
 *.sync-conflict-*
+logseq/bak/
