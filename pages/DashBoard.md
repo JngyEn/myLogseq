@@ -419,7 +419,7 @@
 							- 循环刷算法，刷到能背下来 #Q0-Routine
 						- 生活：
 							- 健身，把肚子减下去 #Q0-Routine
-							- #[[Q0-Routine]] 多把精力关注在wzj身上，每周买个礼物给个惊喜 
+							- 多把精力关注在wzj身上，每周买个礼物给个惊喜 
 							  start-date::  [[Dec 22nd, 2025]]
 							  deadline::   [[Feb 8th, 2026]]
 					- ## W1: 1-7
