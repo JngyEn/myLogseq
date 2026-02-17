@@ -245,7 +245,8 @@
 		          res))
 		  }
 		  #+END_QUERY
-		- #+BEGIN_QUERY
+		- collapsed:: true
+		  #+BEGIN_QUERY
 		  {:title ["📅 已计划未开始 "]
 		   :query [:find (pull ?b [*])
 		           :in $ ?today
@@ -268,6 +269,7 @@
 		                  [(> ?d3 ?today)]))
 		   ]
 		   :inputs [:today]
+		   :collapsed? true
 		   :breadcrumb-show? true
 		   :result-transform (fn [res]
 		      (sort-by (fn [b]
