@@ -221,18 +221,18 @@
 		  }
 		  #+END_QUERY
 		- #+BEGIN_QUERY
-		  {:title ["📥 无计划时间的待办 "]
+		  {:title ["📥 没计划时间或者有空就做的待办 "]
 		   :query [:find (pull ?b [*])
 		           :in $ ?today
 		           :where
 		           [?b :block/marker ?marker]
 		           [(contains? #{"TODO" "LATER" "NOW" "DOING"} ?marker)]
-		           (not [?b :block/marker "DONE"])
-		           ;; 关键排除逻辑
 		           (not [?b :block/scheduled])
 		           (not [?b :block/deadline])
 		           [?b :block/page ?p]
-		           (not [?p :block/journal-day ?today])]
+		           (not [?p :block/journal-day ?today])
+		           (not [?b :block/refs ?ref]
+		                [?ref :block/journal-day])]
 		   :inputs [:today]
 		   :result-transform (fn [res]
 		      (sort-by (fn [b]
